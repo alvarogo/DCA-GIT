@@ -17,7 +17,7 @@ int main (void)
            printf("Input a number [ +(1), -(2), *(3), /(4), ^(5), prime factorization(6), !(7)] : ");
            scanf("%d",&s);
          
-           if ((s > 7) | (s < 1)){
+           if ((s > 10) | (s < 1)){
                   printf("Please input again\n");
                   goto Input;
            }
