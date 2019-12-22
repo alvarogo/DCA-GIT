@@ -60,7 +60,7 @@ void add ()
 {
         int a, b;
         
-        printf("Input two numbers : ");
+        printf("Introduce dos números : ");
         scanf("%d%d", &a,&b);
         printf("Result = %d\n", a + b);
 }
@@ -69,7 +69,7 @@ void sub ()
 {
         int a, b;
         
-        printf("Input two numbers : ");
+        printf("Introduce dos números : ");
         scanf("%d%d", &a,&b);
         printf("Result = %d\n" , a - b);
 }
@@ -78,7 +78,7 @@ void mul ()
 {
         int a, b;
       
-        printf("Input two numbers : ");
+        printf("Introduce dos números : ");
         scanf("%d%d", &a,&b);
         printf("Result = %d\n", a * b);
 }
@@ -87,7 +87,7 @@ void div ()
 {
         int a, b;
         
-        printf("Input two numbers : ");
+        printf("Introduce dos números : ");
         scanf("%d%d", &a,&b);
         printf("Result = %d\n", a / b);
 }
@@ -96,9 +96,9 @@ void sqr (){
         int exp, base, i;
         int result = 1;
     
-        printf("Input base : ");
+        printf("Introduce base : ");
         scanf("%d",&base);
-        printf("Input exp : ");
+        printf("Introduce exp : ");
         scanf("%d",&exp);
     
         for (i = 0; i < exp; ++i)
@@ -112,7 +112,7 @@ void prime_factorization ()
 {
         int n; 
         while (1){ 
-                printf("Input a number : "); 
+                printf("Introduce un número : "); 
                 scanf("%d",&n); 
        
              if(n < 2)
@@ -136,7 +136,7 @@ void prime_factorization ()
         } 
         
         if(1 == index){
-                printf("Prime number\n"); 
+                printf("Número primo\n"); 
         } else { 
                 for (i = 0; i < index - 1; ++i)
                         printf("%d*", primes[i]);
@@ -153,7 +153,7 @@ void factorial ()
         int a, b;
         int sum = 1;
     
-        printf("Input a number : ");
+        printf("Introduce un número : ");
         scanf("%d", &b);
     
         for (a = 1; a <= b; ++a)
