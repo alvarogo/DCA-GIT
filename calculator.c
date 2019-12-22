@@ -9,6 +9,7 @@ void prime_factorization ();
 void factorial ();
 void sel_func (int);
 
+// Pureba del hook prepare-commit-msg
 int main (void)
 {
         int s;
