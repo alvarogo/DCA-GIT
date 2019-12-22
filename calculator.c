@@ -17,7 +17,7 @@ int main (void)
            printf("Introduce un número [ +(1), -(2), *(3), /(4), ^(5), factirización primos(6), !(7)] : ");
            scanf("%d",&s);
          
-           if ((s > 10) | (s < 1)){
+           if ((s > 7) | (s < 1)){
                   printf("Por favor, introduzca una opción válida\n");
                   goto Input;
            }
