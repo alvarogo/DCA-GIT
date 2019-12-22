@@ -14,11 +14,11 @@ int main (void)
         int s;
     
         Input:
-           printf("Input a number [ +(1), -(2), *(3), /(4), ^(5), prime factorization(6), !(7)] : ");
+           printf("Introduce un número [ +(1), -(2), *(3), /(4), ^(5), factirización primos(6), !(7)] : ");
            scanf("%d",&s);
          
            if ((s > 10) | (s < 1)){
-                  printf("Please input again\n");
+                  printf("Por favor, introduzca una opción válida\n");
                   goto Input;
            }
            sel_func (s);
